@@ -1,19 +1,19 @@
 {
-    "name": "simplesoftwareio/simple-qrcode",
+    "name": "telekonek/simple-qrcode",
     "description": "Simple QrCode is a QR code generator made for Laravel.",
     "keywords": ["qrcode", "laravel", "simple", "generator", "wrapper"],
-    "homepage": "https://www.simplesoftware.io/#/docs/simple-qrcode",
+    "homepage": "https://www.telekonek.com",
     "license" : "MIT",
     "authors": [
         {
-            "name": "Simple Software LLC",
-            "email": "support@simplesoftware.io"
+            "name": "Telekonek LLC",
+            "email": "developers@telekonek.com"
         }
     ],
     "require": {
         "php": ">=7.2|^8.0",
       	"ext-gd": "*",
-        "bacon/bacon-qr-code": "^2.0"
+        "bacon/bacon-qr-code": "^3.0"
     },
     "require-dev": {
         "mockery/mockery": "~1",
